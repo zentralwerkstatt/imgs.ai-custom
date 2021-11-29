@@ -11,7 +11,7 @@ Only MacOS and Linux environments are currently supported.
 1. Download and install the [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (preferred) package manager.
 2. Create a Python 3.8 conda environment with `conda create --yes -n imgs.ai-custom python=3.8` and activate it with `conda activate imgs.ai-custom`.
 3. Clone or download the repository and run the [install.sh](install.sh) shell script with your preferred shell. If you would like to install with GPU support (**GPU is strongly recommended**), add the following parameter: `cudatoolkit=10.1`, where the version number is the version of your installed CUDA framework (see https://pytorch.org/ for more information).
-4. Edit [embedders.pytxt](embedders.pytxt) and the parameters of `make_model`in [run.py](train.py) to fit your needs, then run [run.py](run.py).
+4. Edit [embedders.pytxt](embedders.pytxt) and the parameters of `make_model`in [run.py](run.py) to fit your needs, then run [run.py](run.py).
 
 ## CoLab version (experimental)
 
