@@ -26,7 +26,8 @@ import logging
 from datetime import date
 from sklearn.decomposition import PCA, IncrementalPCA
 
-#@title Logging and GPU
+
+# Logging
 logging.captureWarnings(True)
 log = logging.getLogger()
 log.setLevel(logging.INFO)
