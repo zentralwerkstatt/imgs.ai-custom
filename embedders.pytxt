@@ -1,0 +1,6 @@
+embedders = {
+    "vgg19": Embedder_VGG19(reducer=IncrementalPCA(n_components=512)),
+    "raw": Embedder_Raw(reducer=IncrementalPCA(n_components=512)),
+    "clip_vit": Embedder_CLIP_ViT(),
+    "poses": Embedder_Poses()
+}
