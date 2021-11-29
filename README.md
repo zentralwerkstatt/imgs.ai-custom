@@ -2,7 +2,7 @@
 
 **imgs.ai** is a fast, dataset-agnostic, deep visual search engine for digital art history based on neural network embeddings. It utilizes modern approximate k-NN algorithms via [Spotify's Annoy library](https://github.com/spotify/annoy) to deliver fast search results even for very large datasets in low-resource environments, and integrates the [OpenAI CLIP model](https://openai.com/blog/clip/) for text-based visual search. Try it [here](https://imgs.ai) on the complete [Rijksmuseum](https://www.rijksmuseum.nl) and [Metropolitan Museum of Art](https://www.metmuseum.org) collections or sign up for an account to access more functions/datasets (institutional email address and approval required.) imgs.ai is developed by [Fabian Offert](https://zentralwerkstatt.org), with contributions by Peter Bell and Oleg Harlamov. Get in touch at hi@imgs.ai.
 
-**This repository provides a custom training function. It is independent of the main [imgs.ai repository](https://github.com/zentralwerkstatt.imgs.ai).**
+**This repository provides a custom training function. It is independent of the main [imgs.ai repository](https://github.com/zentralwerkstatt/imgs.ai).**
 
 ## Local installation (experimental)
 
@@ -15,4 +15,4 @@ Only MacOS and Linux environments are currently supported.
 
 ## CoLab version (experimental)
 
-A CoLab version that allows GPU training in the cloud on data stored in Google Drive is available as a Jupyter notebook: [train.ipynb](train.ipynb). [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zentralwerkstatt/imgs.ai-custom/blob/master/train.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zentralwerkstatt/imgs.ai-custom/blob/master/train.ipynb)
