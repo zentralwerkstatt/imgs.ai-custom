@@ -369,8 +369,8 @@ def train(X, model_folder, embedders, data_root, num_workers, start, end, n_tree
 
 
 def make_model(model_folder, 
-               embedders_file, 
                data_root, 
+               embedders_file="embedders.pytxt", 
                num_workers=32, 
                start=0, 
                end=None, 
@@ -420,9 +420,3 @@ def make_model(model_folder,
     )
 
     log.info('Done')
-
-
-make_model(model_folder="new_model",
-           embedders_file="embedders.pytxt",
-           data_root="data.csv", # CSV file or folder
-           build=True)
